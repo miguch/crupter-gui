@@ -1,0 +1,17 @@
+[package]
+name = "crupter-gui"
+version = "0.1.0"
+authors = ["Miguel Chan <i@miguch.com>"]
+license = "MIT"
+build = "build.rs"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "crupter_gui"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+neon-build = "0.3.1"
+
+[dependencies]
+neon = "0.3.1"

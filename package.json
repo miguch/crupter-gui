@@ -1,0 +1,14 @@
+{
+  "name": "crupter-gui",
+  "version": "0.1.0",
+  "description": "A Electron app for https://github.com/miguch/crupter",
+  "main": "lib/index.js",
+  "author": "Miguel Chan <i@miguch.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.3.1"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}
